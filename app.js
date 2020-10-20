@@ -44,9 +44,9 @@ app.post('/', (req, res) => {
   };
   const jsonData = JSON.stringify(data);
 
-  const apiKey = '1be2a21e9c307eab646a5ba9b733e5e2-us2';
-  const listId = '1a1379af05';
-  const X = '2';
+  const apiKey = '<Your apiKey>';
+  const listId = '<Your list id>';
+  const X = '<Your usNumber>';
   const url = `https://us${X}.api.mailchimp.com/3.0/lists/${listId}`;
 
   const options = {
