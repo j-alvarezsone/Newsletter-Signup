@@ -61,7 +61,7 @@ app.post('/', (req, res) => {
     .then(
       res.statusCode === 200
         ? res.sendFile(__dirname + '/success.html')
-        : res.sendFile(__dirname + '/fail.html')
+        : res.sendFile(__dirname + '/failure.html')
     )
     .catch((err) => console.log(err));
 });
